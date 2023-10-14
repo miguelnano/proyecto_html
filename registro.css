@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0 ; width: 1900px; 
+    padding: 0;
+    background: url(espacio.gif) no-repeat center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo a {
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+}
+.contenedor{
+    margin: 110px auto;
+    font-size: 20px;
+    width: 400px;
+    padding: 70px;
+    background-color: #999;
+    color: #000000;
+    opacity: 94%;
+    border: 1px solid #14213d;
+    border-radius: 20px;
+}       
+
+.contenedor .elemento label{
+    color: rgb(0, 0, 0);
+}
+.contenedor .elemento input{
+    width: 90%;
+    padding: 9px;
+    color: #000000;
+    border-radius: 30px;
+}
+.contenedor .elemento input[type="submit"]{
+    background:linear-gradient(to right,#181818,#636262,#181818);
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 20px;
+    border:none;
+}
+.a{
+    text-align: center;
+    color: #050505;
+}
+p{
+    text-align: center;
+}
+.sesion img {
+    height: 30px;
+    margin-right: 58px;
+}
